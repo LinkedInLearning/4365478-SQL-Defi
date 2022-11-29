@@ -1,7 +1,8 @@
 /*
- Combien y a-t-il de contacts qui ne sont ni des formateurs, ni des stagiaires inscrits � une formation ?
- 
+ Combien y a-t-il de contacts qui ne sont ni des formateurs, 
+ ni des stagiaires inscrits à une formation ?
  */
+ 
 SELECT c.*
 FROM Contact c
   LEFT JOIN Formateur f ON c.ContactId = f.ContactId

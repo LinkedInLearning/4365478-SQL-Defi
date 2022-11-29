@@ -1,6 +1,6 @@
 /*
  Restituez une colonne avec le prénom et le nom alignés.
- Jeanne..............Garcia (20 caractères)
+ Jeanne..............Garcia (20 caractères avant le Nom)
  */
 
 SELECT Prenom, Nom

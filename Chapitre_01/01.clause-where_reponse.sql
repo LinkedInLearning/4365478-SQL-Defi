@@ -10,4 +10,4 @@ WHERE (
     Titre <> 'Mme'
     OR Titre IS NULL
   )
-  AND Nom BETWEEN 'G' AND 'JZZ';
+  AND Nom BETWEEN 'G' AND 'JZZZ';

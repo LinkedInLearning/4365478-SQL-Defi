@@ -1,7 +1,7 @@
 /*
  Listez les stages qui ont plusieurs sessions en même temps.
- 
  */
+
 SELECT SessionId,
   StageId,
   DateDebut,

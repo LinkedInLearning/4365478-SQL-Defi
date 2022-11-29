@@ -10,7 +10,7 @@ FROM TallyNombre;
 
 INSERT INTO TallyNombre (nombre)
 SELECT Nombre + (
-    SELECT MAX(Nombre)
+    SELECT MAX(Nombre) as MaxNombre
     FROM TallyNombre
   )
 FROM TallyNombre;

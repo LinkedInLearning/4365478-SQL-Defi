@@ -1,20 +1,21 @@
 /*
- Listez les sessions qui suivent directement une session annul�e du m�me stage.
- 
+ Listez les sessions qui suivent directement une session 
+ annulée du même stage.
  */
+ 
 WITH cte AS (
   SELECT StageId,
     DateDebut,
-    Statut,
+    TRIM(s.Statut) as Statut,
     ROW_NUMBER() OVER (
       PARTITION BY StageId
       ORDER BY DateDebut
     ) as rn
-  FROM "Session"
+  FROM "Session" s
 )
 SELECT *
 FROM cte s1
-  JOIN cte s2 ON s1.StageId = s2.stageId
+  JOIN cte s2 ON s1.stageId = s2.StageId
   AND s1.rn = s2.rn - 1
-WHERE TRIM(s1.Statut) = 'A'
-  AND COALESCE(TRIM(s2.Statut), '') <> 'A';
+WHERE s1.Statut = 'A'
+  AND COALESCE(s2.Statut, '') <> 'A';

@@ -6,7 +6,8 @@
    
    */
 
-CREATE TEMPORARY TABLE temp_contact (Telephone varchar(50), Portable varchar(50));
+CREATE TEMPORARY TABLE temp_contact 
+(Telephone varchar(50), Portable varchar(50));
 
 INSERT INTO temp_contact (Telephone, Portable)
 VALUES 

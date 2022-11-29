@@ -5,13 +5,25 @@
 
 SELECT DateDebut,
   Duree,
-  DATE(DateDebut, printf("+%i day", Duree - 1)) AS DateFin
+  DATE(DateDebut, printf("+%i day", Duree - 1)) AS DateFin,
+  strftime('%m', DateDebut) as Mois
 FROM "Session"
-WHERE CAST(strftime('%m', DateDebut) as int) = CAST(strftime(
-  '%m',DATE(DateDebut, printf("+%i day", Duree - 1))) as int) - 1
+WHERE (
+    CAST(strftime('%m', DateDebut) as int) = CAST(
+      strftime(
+        '%m',
+        DATE(DateDebut, printf("+%i day", Duree - 1))
+      ) as int
+    ) - 1
+  )
   OR (
     strftime('%m', DateDebut) = '12'
-    AND strftime('%m', DATE(DateDebut, printf("+%i day", Duree - 1))) = '1'
+    AND CAST(
+      strftime(
+        '%m',
+        DATE(DateDebut, printf("+%i day", Duree - 1))
+      ) as int
+    ) = 1
   );
 
 -- solution SQL Server

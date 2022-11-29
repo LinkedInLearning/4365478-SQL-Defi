@@ -4,5 +4,6 @@
  M. Jean DUPONT.
  
  */
-SELECT ContactId, Titre, Prenom, Nom as NomComplet
+SELECT ContactId, 
+  COALESCE(Titre || ' ', '') || Prenom || ' ' || Nom AS NomComplet
 FROM Contact;

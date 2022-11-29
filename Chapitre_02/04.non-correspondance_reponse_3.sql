@@ -2,6 +2,7 @@
  Trouver les participants à des formations en 2011 qui n'ont 
  pas participé à des formations en 2012.
  */
+ 
 SELECT c.ContactId,
   c.Nom,
   c.Prenom

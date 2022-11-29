@@ -1,5 +1,5 @@
 /*
- Restituez une colonne avec le pr�nom et le nom align�s.
+ Restituez une colonne avec le prénom et le nom alignés.
  Jeanne..............Garcia
  */
 

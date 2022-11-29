@@ -6,12 +6,13 @@
    
    */
 
-SELECT Telephone, Portable
-FROM Contacts;
+-- SELECT Telephone, Portable
+-- FROM Contact;
 
 -- plus simplement :
 
-CREATE TEMPORARY TABLE temp_contact (Telephone varchar(50), Portable varchar(50));
+CREATE TEMPORARY TABLE temp_contact 
+(Telephone varchar(50), Portable varchar(50));
 
 INSERT INTO temp_contact (Telephone, Portable)
 VALUES 

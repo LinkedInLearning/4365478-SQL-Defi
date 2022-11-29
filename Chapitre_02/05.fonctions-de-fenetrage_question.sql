@@ -5,5 +5,6 @@
 
 SELECT StageId,
   DateDebut,
-  TRIM(s.Statut) as Statut
+  TRIM(s.Statut) as Statut,
+  ROW_NUMBER() OVER (PARTITION BY StageId ORDER BY DateDebut) as rn 
 FROM "Session" s;
