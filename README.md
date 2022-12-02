@@ -1,6 +1,6 @@
-# Nom final de la formation
+# SQL Défis Code
 
-Ce dossier Repository est lié au cours `Nom final de la formation`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier Repository est lié au cours `SQL Défis Code`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
 ![Nom final de la formation][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
 
@@ -8,14 +8,11 @@ DESCRIPTION DE LA FORMATION
 
 ## Instructions
 
-Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
+Ce dossier Repository a des répertoires pour chaque chapitre du cours. Dans chaque répertoire, vous trouverez le fichier `_question.sql` pour le squellete de requête de la question, et le fichier `_reponse.sql` pour la réponse (ne regardez pas à l'avance !). 
 
-## Branches
+## CodeSpaces
 
-Les branches sont structurées de manière à correspondre aux vidéos du cours. La convention de nommage est : `CHAPITRE#_VIDEO#`. Par exemple, la branche nommée`02_03` correspond au second chapitre, et à la troisième vidéo de ce chapitre. Certaines branches ont un état de départ et de fin.  
-La branche `02_03_d` correspond au code du début de la vidéo.  
-La branche `02_03_f` correspond au code à la fin de la vidéo.  
-La branche master correspond au code à la fin de la formation. 
+Ce dépôt GitHub vous permet d'exécuter directement les exercices dans CodeSpaces. Lorsque CodeSpaces démarre, il installe l'extension Sqlite nécessaire. Pour exécuter le code, il faudra accéder à la palette de commandes, soit avec la combinaisons de touches CMD ou CTRL + MAJ + P (qui fonctionne sur Chrome et Edge), ou la touche F1 (qui fonctionne partout, et notamment dans Firefox).
 
 ## Installation
 
@@ -24,12 +21,11 @@ La branche master correspond au code à la fin de la formation.
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
 3. [Instructions spécifiques au cours] 
 
-
 ### Formateur
 
-**Nom du formateur** 
+**Rudi Bruchez** 
 
- Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
+ Retrouvez mes autres formations sur [LinkedIn Learning][https://www.linkedin.com/learning/instructors/rudi-bruchez].
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
