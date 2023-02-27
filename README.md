@@ -2,7 +2,7 @@
 
 Ce dossier Repository est lié au cours `SQL Défis Code`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
-![Nom final de la formation][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
+![Nom final de la formation][lil-thumbnail-url]
 
 Pour écrire des requêtes SQL, il s'agit avant tout penser en SQL. Prendre une question, comme « Trouver des participants à des formations en 2011 qui n'ont pas participé à des formations en 2012 », et la traduire en relations, jointures ou sous-requêtes, il s'agit également d'une façon globale de penser. Dans ce cours, Rudi Bruchez vous invite à relever quatorze défis en code SQL pour évaluer votre capacité à jouer avec les syntaxes et les particularités du langage de programmation. Ainsi, vous obtiendrez tous les résultats souhaités avec les données de vos tables.
 
