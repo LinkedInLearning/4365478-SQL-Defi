@@ -25,11 +25,11 @@ Ce dépôt GitHub vous permet d'exécuter directement les exercices dans CodeSpa
 
 **Rudi Bruchez** 
 
- Retrouvez mes autres formations sur [LinkedIn Learning][https://www.linkedin.com/learning/instructors/rudi-bruchez].
+ Retrouvez mes autres formations sur [LinkedIn Learning].
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/sql-defis-code-17653949
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/C4E0DAQGy5hu1MyOr3g/learning-public-crop_675_1200/0/1676295480779?e=2147483647&v=beta&t=FeaOdbUD0WxERmUVyFXpYY0FQrnKUpf2tKLD5H_4bUw
-[lil-URL-trainer]: https://
+[lil-URL-trainer]: https://www.linkedin.com/learning/instructors/rudi-bruchez
 
 [1]: # (End of FR-Instruction ###############################################################################################)
