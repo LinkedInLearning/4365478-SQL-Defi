@@ -4,7 +4,7 @@ Ce dossier Repository est lié au cours `SQL Défis Code`. Le cours entier est d
 
 ![Nom final de la formation][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
 
-DESCRIPTION DE LA FORMATION
+Pour écrire des requêtes SQL, il s'agit avant tout penser en SQL. Prendre une question, comme « Trouver des participants à des formations en 2011 qui n'ont pas participé à des formations en 2012 », et la traduire en relations, jointures ou sous-requêtes, il s'agit également d'une façon globale de penser. Dans ce cours, Rudi Bruchez vous invite à relever quatorze défis en code SQL pour évaluer votre capacité à jouer avec les syntaxes et les particularités du langage de programmation. Ainsi, vous obtiendrez tous les résultats souhaités avec les données de vos tables.
 
 ## Instructions
 
@@ -28,8 +28,8 @@ Ce dépôt GitHub vous permet d'exécuter directement les exercices dans CodeSpa
  Retrouvez mes autres formations sur [LinkedIn Learning][https://www.linkedin.com/learning/instructors/rudi-bruchez].
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+[lil-course-url]: https://www.linkedin.com/learning/sql-defis-code-17653949
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C4E0DAQGy5hu1MyOr3g/learning-public-crop_675_1200/0/1676295480779?e=2147483647&v=beta&t=FeaOdbUD0WxERmUVyFXpYY0FQrnKUpf2tKLD5H_4bUw
 [lil-URL-trainer]: https://
 
 [1]: # (End of FR-Instruction ###############################################################################################)
